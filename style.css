@@ -1,0 +1,132 @@
+
+body
+{
+display: flex;
+justify-content: space-around;
+margin:0;
+direction: rtl;
+overflow: hidden;
+}
+.right-menu
+{
+width:15%;
+height:100vh;
+background-color: white;
+display: flex;
+direction: rtl;
+align-items: center;
+flex-direction: column;
+}
+.right-menu__clock
+{
+width:70%;
+height:80px;
+background-color: teal;
+position: relative;
+top:40px;
+}
+.right-menu__user-information
+{
+width:90%;
+height:55px;
+position: relative;
+top:70px;
+background-color: rgb(0, 192, 206);
+}
+.right-menu__treemenu-ul
+{
+    direction: rtl;
+    position: relative;
+    top:100px;
+    width:70%;
+    height: 300px;
+    background-color: tomato;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.right-menu__treemenu-li
+{
+    width:100%;
+    height:15%;
+    background-color: red;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container
+{
+width:85%;
+height:100vh;
+background-color: #f5f5f5;
+}
+.container__top-bar
+{
+    width:100%;
+    height: 120px;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container__top-bar-divs
+{
+    width:23%;
+    height: 80%;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow:  0px 0px 5px 0px rgb(230, 230, 230);
+}
+.container__middle-bar
+{
+width: 100%;
+height:340px;
+direction: rtl;
+background-color: #f5f5f5;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.container__middle-bar-rightdiv
+{
+width: 55%;
+height: 320px;
+background-color: #8d5fe5;
+border-radius: 3px;
+
+}
+
+.container__middle-bar-leftdiv
+{
+    width: 40%;
+    height: 320px;
+    background-color: white;
+    border-radius: 3px;
+}
+.container__bottom-bar
+{
+    width: 100%;
+    height:290px;
+    direction: rtl;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container__bottom-bar-rightdiv
+{
+    width: 55%;
+    height:260px;
+    background-color: white;
+    border-radius: 3px;
+}
+.container__bottom-bar-leftdiv
+{
+    width: 40%;
+    height:260px;
+    background-color: white;
+    border-radius: 3px;
+}
