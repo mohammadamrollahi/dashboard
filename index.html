@@ -10,32 +10,52 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <div class="right-menu">
-                <div class="right-menu__clock"></div>
-                <div class="right-menu__user-information"></div>
+                <div class="right-menu__clock">
+                    <p class="right-menu__clock-number">15:26</p>
+
+                    <p>یکشنبه 12 فروردین</p>
+                </div>
+                <div class="right-menu__user-information">
+                    <img class="right-menu__user-information-personalimg"src="./Assets/PNG/personalimg.jpg" alt="personalimg">
+                    <div class="right-menu__user-information-middlediv">
+                        <p class="right-menu__user-information-middlediv-name"> محمد فروغی</p>
+                        <p class="right-menu__user-information-middlediv-job"> توسعه دهنده</p>
+                    </div>
+                    <i class="fas fa-chevron-left"></i>
+                </div>
                <ul class="right-menu__treemenu-ul">
-                    <li class="right-menu__treemenu-li">داشبورد</li>
-                    <li class="right-menu__treemenu-li">صندوق پیام</li>
-                    <li class="right-menu__treemenu-li">تیکت</li>
-                    <li class="right-menu__treemenu-li">
-                        دانشنامه
+                    <li class="right-menu__treemenu-li">  <p><i class="fas fa-desktop"></i>  داشبورد</p> <p class="right-menu__treemenu-li-redlabel">21</p></li>
+                    <li class="right-menu__treemenu-li"><p><i class="fas fa-envelope-open"></i> صندوق پیام</p> <p class="right-menu__treemenu-li-redlabel">5</p></li>
+                    <li class="right-menu__treemenu-li"><p><i class="fas fa-ticket-alt"></i> تیکت </p></li>
+                    <li class="right-menu__treemenu-returnableli">
+                        <span class="right-menu__treemenu-returnableli-titr">
+                       <p ><i class="fas fa-book-open"></i> دانشنامه </p>
+                       <i class="fas fa-sort-down"></i>
+                         </span>
+                        <ul >
+                            <li class="right-menu__treemenu-returnableli-innerli">همه دانشنامه ها</li>
+                            <li class="right-menu__treemenu-returnableli-innerli">پیش نویس ها</li>
+                        </ul>
+                    </li>
+                    <li class="right-menu__treemenu-returnableli">
+                        <span class="right-menu__treemenu-returnableli-titr">
+                            <p ><i class="fas fa-newspaper"></i></i> اخبار </p>
+                            <i class="fas fa-sort-down"></i>
+                              </span>
                         <ul>
-
+                            <li class="right-menu__treemenu-returnableli-innerli">اخبار جدید</li>
+                            
                         </ul>
                     </li>
                     <li class="right-menu__treemenu-li">
-                        اخبار
-                        <ul>
-
-                        </ul>
-                    </li>
-                    <li class="right-menu__treemenu-li">
-                        مدیریت
+                      <p><i class="fas fa-cog"></i> مدیریت</p>  
                         <ul>
 
                         </ul>
@@ -45,29 +65,104 @@
         <div class="container">
             <div class="container__top-bar">
                 <div class="container__top-bar-divs">
-                    <div class="container__top-bar-divs-textdiv"></div>
+                    <div class="container__top-bar-divs-textdiv">
+                        <p class="container__top-bar-divs-textdiv-total">
+                            تعداد کل کاربران
+                        </p>
+                        <p class="container__top-bar-divs-textdiv-total-number">
+                            238
+                        </p>
+                        <p class="container__top-bar-divs-textdiv-bottomtext">
+                           <span class="container__top-bar-divs-textdiv-bottomtext-number"> 145 </span>
+                           کاربر فعال
+                        </p>
+
+                    </div>
                     <div class="container__top-bar-divs-icondiv1"><img class="container__top-bar-divs-icon"src="./Assets/PNG/users.png"></div>
                 </div>
                 <div class="container__top-bar-divs">
-                    <div class="container__top-bar-divs-textdiv"></div>
+                    <div class="container__top-bar-divs-textdiv">
+                        <p class="container__top-bar-divs-textdiv-total">
+                            تعداد کل تیکت ها
+                        </p>
+                        <p class="container__top-bar-divs-textdiv-total-number">
+                            856
+                        </p>
+                        <p class="container__top-bar-divs-textdiv-bottomtext">
+                           <span class="container__top-bar-divs-textdiv-bottomtext-number"> 523 </span>
+                                تیکت بسته شده
+                        </p>
+                    </div>
                     <div class="container__top-bar-divs-icondiv2"><img class="container__top-bar-divs-icon" src="./Assets/PNG/tickets.png"></div>
                 </div>
                 <div class="container__top-bar-divs">
-                    <div class="container__top-bar-divs-textdiv"></div>
+                    <div class="container__top-bar-divs-textdiv">
+                        <p class="container__top-bar-divs-textdiv-total">
+                            تعداد کل دانشنامه ها
+                        </p>
+                        <p class="container__top-bar-divs-textdiv-total-number">
+                            619
+                        </p>
+                        <p class="container__top-bar-divs-textdiv-bottomtext">
+                           <span class="container__top-bar-divs-textdiv-bottomtext-pluspercentage"> 
+                            <i class="fas fa-long-arrow-alt-up"></i>   
+                            %4/6 </span>
+                            نسبت به ماه گذشته
+                        </p>
+                    </div>
                     <div class="container__top-bar-divs-icondiv3"><img class="container__top-bar-divs-icon" src="./Assets/PNG/encyclopedias.png"></div>
                 </div>
                 <div class="container__top-bar-divs">
-                    <div class="container__top-bar-divs-textdiv"></div>
-                    <div class="container__top-bar-divs-icondiv4"><img class="container__top-bar-divs-icon" src="./Assets/PNG/messages.png"></div>
+                    <div class="container__top-bar-divs-textdiv">
+                        <p class="container__top-bar-divs-textdiv-total">
+                            تعداد کل خبر ها
+                        </p>
+                        <p class="container__top-bar-divs-textdiv-total-number">
+                            619
+                        </p>
+                        <p class="container__top-bar-divs-textdiv-bottomtext">
+                           <span class="container__top-bar-divs-textdiv-bottomtext-minuspercentage"> 
+                            <i class="fas fa-long-arrow-alt-down"></i>
+                            %6/2 </span>
+                            نسبت به ماه گذشته
+                        </p>
+                    </div>
+                    <div class="container__top-bar-divs-icondiv4"><img class="container__top-bar-divs-message-icon" src="./Assets/PNG/messages.png"></div>
                 </div>
             </div>
             <div class="container__middle-bar">
-                <div class="container__middle-bar-rightdiv"></div>
-                <div class="container__middle-bar-leftdiv"> </div>
+                <div class="container__middle-bar-rightdiv">
+                    <i id="container__middle-bar-rightdiv-edit-icon" class="far fa-edit"></i>
+                </div>
+                <div class="container__middle-bar-leftdiv"> 
+                    <div class="container__middle-bar-leftdiv-topbar">
+                        <div class="container__middle-bar-leftdiv-topbar-div">
+                            <p class="container__middle-bar-leftdiv-topbar-titr-onfocus">خلاصه عملکرد</p>
+                        </div>                       
+                    </div>
+                </div>
             </div>
             <div class="container__bottom-bar">
-                <div class="container__bottom-bar-rightdiv"></div>
-                <div class="container__bottom-bar-leftdiv"> </div>
+                <div class="container__bottom-bar-rightdiv">
+                    <div class="container__bottom-bar-rightdiv-topbar">
+                        <div class="container__bottom-bar-rightdiv-topbar-div">
+                            <p class="container__bottom-bar-rightdiv-topbar-titr-onfocus"> تیکت های ستاره دار<p class="container__bottom-bar-leftdiv-label">21</p></p>
+                            
+                            <p class="container__bottom-bar-rightdiv-topbar-titr">باز همراه پاسخ<p class="container__bottom-bar-leftdiv-label">30</p> </p>
+                            
+                            <p class="container__bottom-bar-rightdiv-topbar-titr">باز بدون پاسخ <p class="container__bottom-bar-leftdiv-label">15</p></p>
+                            <p class="container__bottom-bar-rightdiv-topbar-titr">بسته <p class="container__bottom-bar-leftdiv-label">21</p></p>
+
+                        </div>            
+                </div>
+                </div>
+                <div class="container__bottom-bar-leftdiv">
+                    <div class="container__bottom-bar-leftdiv-topbar">
+                        <div class="container__bottom-bar-leftdiv-topbar-div">
+                            <p class="container__bottom-bar-leftdiv-topbar-titr-onfocus">صندوق پیام</p>
+                        </div>                       
+                    </div>
+                </div>
             </div>
         </div>
 
