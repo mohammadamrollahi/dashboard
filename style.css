@@ -1,4 +1,8 @@
-
+@font-face 
+{
+    src: url("./Assets/Fonts/Shabnam.ttf");
+    font-family: shabnam;
+}
 body
 {
 display: flex;
@@ -6,6 +10,7 @@ justify-content: space-around;
 margin:0;
 direction: rtl;
 overflow: hidden;
+font-family: shabnam;
 }
 .right-menu
 {
@@ -16,6 +21,7 @@ display: flex;
 direction: rtl;
 align-items: center;
 flex-direction: column;
+
 }
 .right-menu__clock
 {
@@ -39,22 +45,18 @@ background-color: rgb(0, 192, 206);
     position: relative;
     top:100px;
     width:70%;
-    height: 300px;
-    background-color: tomato;
+    height: 230px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+
 }
 .right-menu__treemenu-li
 {
     width:100%;
     height:15%;
-    background-color: red;
-    border: 1px solid black;
     display: flex;
-    justify-content: center;
     align-items: center;
+    color: rgb(192, 192, 192);
 }
 
 .container
@@ -77,8 +79,68 @@ background-color: #f5f5f5;
     width:23%;
     height: 80%;
     background-color: white;
-    border-radius: 4px;
+border-radius: 5px;
     box-shadow:  0px 0px 5px 0px rgb(230, 230, 230);
+    display: flex;
+}
+.container__top-bar-divs-textdiv
+{
+    width: 80%;
+    height: 100%;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.container__top-bar-divs-icondiv1
+{
+    width: 20%;
+    height: 100%;
+    background: rgb(141,95,229);
+    background: linear-gradient(180deg, rgba(141,95,229,1) 0%, rgba(121,105,229,1) 35%, rgba(94,104,228,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.container__top-bar-divs-icondiv2
+{
+    width: 20%;
+    height: 100%;
+    background: rgb(254,198,59);
+    background: linear-gradient(180deg, rgba(254,198,59,1) 0%, rgba(241,156,29,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.container__top-bar-divs-icondiv3
+{
+    width: 20%;
+    height: 100%;
+    background: rgb(243,71,127);
+    background: linear-gradient(180deg, rgba(243,71,127,1) 0%, rgba(248,55,70,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.container__top-bar-divs-icondiv4
+{
+    width: 20%;
+    height: 100%;
+    background: rgb(34,196,245);
+    background: linear-gradient(180deg, rgba(34,196,245,1) 0%, rgba(95,126,253,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.container__top-bar-divs-icon
+{
+    width: 60%;
 }
 .container__middle-bar
 {
@@ -94,9 +156,10 @@ align-items: center;
 {
 width: 55%;
 height: 320px;
-background-color: #8d5fe5;
+background: rgb(141,95,229);
+background: linear-gradient(144deg, rgba(141,95,229,1) 0%, rgba(121,105,229,1) 35%, rgba(94,104,228,1) 100%);
 border-radius: 3px;
-
+box-shadow:  0px 0px 5px 0px rgb(230, 230, 230);
 }
 
 .container__middle-bar-leftdiv
@@ -105,6 +168,7 @@ border-radius: 3px;
     height: 320px;
     background-color: white;
     border-radius: 3px;
+    box-shadow:  0px 0px 5px 0px rgb(230, 230, 230);
 }
 .container__bottom-bar
 {
@@ -122,6 +186,7 @@ border-radius: 3px;
     height:260px;
     background-color: white;
     border-radius: 3px;
+    box-shadow:  0px 0px 5px 0px rgb(230, 230, 230);
 }
 .container__bottom-bar-leftdiv
 {
@@ -129,4 +194,5 @@ border-radius: 3px;
     height:260px;
     background-color: white;
     border-radius: 3px;
+    box-shadow:  0px 0px 5px 0px rgb(230, 230, 230);
 }
