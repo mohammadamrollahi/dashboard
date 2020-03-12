@@ -14,7 +14,6 @@ display: flex;
 justify-content: space-around;
 margin:0;
 direction: rtl;
-overflow: hidden;
 font-family: shabnam;
 }
 .right-menu
@@ -126,6 +125,7 @@ padding: 5px 0px;
     font-size: 8pt;
     border-radius: 10px;
     color:white;
+    font-family: shabnam;
 }
 .right-menu__treemenu-returnableli-innerli
 {
@@ -254,7 +254,7 @@ color: rgba(121,105,229,1);
 .container__middle-bar
 {
 width: 100%;
-height:340px;
+height:280px;
 direction: rtl;
 background-color: #f5f5f5;
 display: flex;
@@ -265,7 +265,7 @@ align-items: center;
 .container__middle-bar-rightdiv
 {
 width: 55%;
-height: 320px;
+height:260px ;
 background: rgb(141,95,229);
 background: linear-gradient(144deg, rgba(141,95,229,1) 0%, rgba(121,105,229,1) 35%, rgba(94,104,228,1) 100%);
 border-radius: 3px;
@@ -280,7 +280,7 @@ direction: ltr;
 .container__middle-bar-leftdiv
 {
     width: 40%;
-    height: 320px;
+    height:260px;
     background-color: white;
     border-radius: 3px;
     box-shadow:  0px 0px 5px 0px rgb(230, 230, 230);
@@ -322,11 +322,12 @@ direction: ltr;
     width: auto;
     height: 30px;
     margin: 0px 5px;
+
 }
 .container__bottom-bar
 {
     width: 100%;
-    height:290px;
+    height:250px;
     direction: rtl;
     background-color: #f5f5f5;
     display: flex;
@@ -336,7 +337,7 @@ direction: ltr;
 .container__bottom-bar-rightdiv
 {
     width: 55%;
-    height:260px;
+    height:240px;
     background-color: white;
     border-radius: 3px;
     box-shadow:  0px 0px 5px 0px rgb(230, 230, 230);
@@ -344,7 +345,7 @@ direction: ltr;
 .container__bottom-bar-leftdiv
 {
     width: 40%;
-    height:260px;
+    height:240px;
     background-color: white;
     border-radius: 3px;
     box-shadow:  0px 0px 5px 0px rgb(230, 230, 230);
@@ -385,21 +386,23 @@ justify-content: flex-start;
 .container__bottom-bar-rightdiv-topbar-div
 {
 width: 90%;
+height: 100%;
 display: flex;
-justify-content: flex-start;
+align-items: center;
 }
 .container__bottom-bar-rightdiv-topbar-titr-onfocus
 {
-    font-size: 11 pt;
+    font-size: 10 pt;
     border-bottom:2px solid rgb(141,95,229);
     display: block;
     width: auto;
-    height: 30px;
+    height: 20px;
 padding: 0 10px;
+
 }
 .container__bottom-bar-rightdiv-topbar-titr
 {
-    font-size: 12pt;
+    font-size: 10pt;
  display: flex;
  justify-content: start;
     width: auto;
@@ -407,6 +410,7 @@ padding: 0 10px;
     margin: 0px 5px;
     color:rgb(192, 192, 192) ;
     padding-right:20px;
+
 }
 .container__bottom-bar-rightdiv-label
 {
@@ -430,4 +434,5 @@ padding: 0 10px;
     font-size: 8pt;
     border-radius: 7px;
     color:gray;
+    font-family: shabnam;
 }
