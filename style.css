@@ -298,7 +298,21 @@ direction: ltr;
 {
     width: 90%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
+}
+.container__middle-bar-leftdiv-topbar-div-dropdown-option
+{
+
+}
+.container__middle-bar-leftdiv-topbar-div-dropdown
+{
+    background-color: white;
+    color: rgb(177, 177, 177) ;
+    border-radius: 5px;
+    font-family: shabnam;
+    width:90px;
+    border-color: rgb(230, 230, 230) ;
+    outline: none;
 }
 .container__middle-bar-leftdiv-topbar-titr-onfocus
 {
