@@ -254,7 +254,7 @@ color: rgba(121,105,229,1);
 .container__middle-bar
 {
 width: 100%;
-height:280px;
+height:40vh;
 direction: rtl;
 background-color: #f5f5f5;
 display: flex;
@@ -265,7 +265,7 @@ align-items: center;
 .container__middle-bar-rightdiv
 {
 width: 55%;
-height:260px ;
+height:90% ;
 background: rgb(141,95,229);
 background: linear-gradient(144deg, rgba(141,95,229,1) 0%, rgba(121,105,229,1) 35%, rgba(94,104,228,1) 100%);
 border-radius: 3px;
@@ -280,7 +280,7 @@ direction: ltr;
 .container__middle-bar-leftdiv
 {
     width: 40%;
-    height:260px;
+    height:90%;
     background-color: white;
     border-radius: 3px;
     box-shadow:  0px 0px 5px 0px rgb(230, 230, 230);
@@ -327,7 +327,7 @@ direction: ltr;
 .container__bottom-bar
 {
     width: 100%;
-    height:250px;
+    height:35vh;
     direction: rtl;
     background-color: #f5f5f5;
     display: flex;
@@ -337,7 +337,7 @@ direction: ltr;
 .container__bottom-bar-rightdiv
 {
     width: 55%;
-    height:240px;
+    height:90%;
     background-color: white;
     border-radius: 3px;
     box-shadow:  0px 0px 5px 0px rgb(230, 230, 230);
@@ -345,7 +345,7 @@ direction: ltr;
 .container__bottom-bar-leftdiv
 {
     width: 40%;
-    height:240px;
+    height:90%;
     background-color: white;
     border-radius: 3px;
     box-shadow:  0px 0px 5px 0px rgb(230, 230, 230);
@@ -381,25 +381,17 @@ justify-content: flex-start;
     border-bottom: 0.1px solid  rgb(230, 230, 230) ;
     display: flex;
     align-items: center;
-    justify-content: center;
+ margin-right: 30px;
 }
 .container__bottom-bar-rightdiv-topbar-div
 {
-width: 90%;
+width: 80;
 height: 100%;
 display: flex;
+justify-content: space-around;
 align-items: center;
 }
-.container__bottom-bar-rightdiv-topbar-titr-onfocus
-{
-    font-size: 10 pt;
-    border-bottom:2px solid rgb(141,95,229);
-    display: block;
-    width: auto;
-    height: 20px;
-padding: 0 10px;
 
-}
 .container__bottom-bar-rightdiv-topbar-titr
 {
     font-size: 10pt;
@@ -407,7 +399,6 @@ padding: 0 10px;
  justify-content: start;
     width: auto;
     height: 20px;
-    margin: 0px 5px;
     color:rgb(192, 192, 192) ;
     padding-right:20px;
 
@@ -430,9 +421,24 @@ padding: 0 10px;
     font-weight: 700;
     padding: 10px 10px;
     height:0;
+
     background-color: rgb(241, 241, 241);
     font-size: 8pt;
     border-radius: 7px;
     color:gray;
     font-family: shabnam;
+}
+.container__bottom-bar-rightdiv-topbar-titr-div-onfocus
+{
+display: flex;
+justify-content: space-between;
+border-bottom:2px solid rgb(141,95,229);
+}
+.container__bottom-bar-rightdiv-topbar-titr-div
+{
+    
+        display: flex;
+        justify-content: space-between;
+
+        
 }
