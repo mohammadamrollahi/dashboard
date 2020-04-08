@@ -154,12 +154,12 @@ body {
   width: 100%;
   height:60px ;
   background-color: white;
-  top: -50px;
+  top: -60px;
   transition:top 0.3s;
 }
 #container {
   width: 85%;
-  height:1500px;
+  height:1570px;
   background-color: #f5f5f5;
   display: flex;
   justify-content: center;
@@ -169,7 +169,7 @@ body {
 }
 .container__top-bar {
   width: 97%;
-  height: 160px;
+  height: 120px;
   background-color: #f5f5f5;
   display: flex;
   justify-content: space-between;
@@ -177,7 +177,7 @@ body {
 }
 .container__top-bar-divs {
   width: 23.5%;
-  height: 80%;
+  height: 90%;
   background-color: white;
   border-radius: 5px;
   box-shadow: 0px 0px 5px 0px rgb(230, 230, 230);
@@ -356,14 +356,14 @@ body {
 }
 .container__bottom-bar-rightdiv {
   width: 60%;
-  height: 92%;
+  height: 95%;
   background-color: white;
   border-radius: 3px;
   box-shadow: 0px 0px 5px 0px rgb(230, 230, 230);
 }
 .container__bottom-bar-leftdiv {
   width: 38.5%;
-  height: 92%;
+  height: 95%;
   background-color: white;
   border-radius: 3px;
   box-shadow: 0px 0px 5px 0px rgb(230, 230, 230);
@@ -395,6 +395,7 @@ body {
 
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 #sorticon {
   width: 6px;
@@ -468,7 +469,7 @@ body {
 }
 .container__underbottom-bar-rightdiv {
   width: 49.2%;
-  height: 92%;
+  height: 95%;
   background-color: white;
   border-radius: 3px;
   box-shadow: 0px 0px 5px 0px rgb(230, 230, 230);
@@ -479,11 +480,24 @@ body {
 
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .container__underbottom-bar-rightdiv-topbar-div {
-  width: 80;
+
   height: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
+ 
+}
+.dropdown {
+  background-color: white;
+  color: rgb(177, 177, 177);
+  border-radius: 5px;
+  font-family: shabnam;
+  width: 90px;
+  border-color: rgb(230, 230, 230);
+  outline: none;
+  height: 40px;
+  margin-left: 2%;
 }
